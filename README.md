@@ -1,11 +1,5 @@
-# extension-methods-example
+# boxing-unboxing-example
 
-## An example of how to use extension methods
+## An example of how boxing and unboxing works
 <br>
-<ul>
-<li>A <em>Class1</em> class with a <em>SendMessage</em> method.</li>
-<li>An <em>Extension</em> class with an extension method called <em>SendAnotherMessage</em>.</li>
-</ul>
-<br>
-<br>
-<p>When executing the code, an instance of <em>Class1</em> is created and a custom message from each method is printed in the console.</p
+<p>When executing the code, an integer is declared and it is assigned to an object (boxing). Then we do the unboxing assigning the object to an integer. Finally we print the original integer and the boxing and unboxing integer on the console.</p
